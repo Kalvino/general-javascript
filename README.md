@@ -1,0 +1,13 @@
+General Javascript learning materials
+ - React
+ - Angular
+ - Node
+ - React Native
+ - Typescript
+ - Functions
+ - Algorithms
+ - Callbacks
+ - Modules
+ - Promise
+ - Observable
+ - Interview Questions
