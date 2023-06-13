@@ -1,0 +1,100 @@
+[
+  {
+    "timestamp": 1628475171253,
+    "loglevel": "info",
+    "transactionId": "9abc55b2-807b-4361-9dbe-aa88b1b2e978",
+    "details": "Service is started"
+  },
+  {
+    "timestamp": 1628475171254,
+    "loglevel": "debug",
+    "transactionId": "9abc55b2-807b-4361-9dbe-aa88b1b2e978",
+    "details": "About to request the user information",
+    "userId": 10
+  },
+  {
+    "timestamp": 1628475171254,
+    "loglevel": "debug",
+    "transactionId": "9abc55b2-807b-4361-9dbe-aa88b1b2e978",
+    "details": "About to request user orders list",
+    "userId": 10
+  },
+  {
+    "timestamp": 1628475171255,
+    "loglevel": "info",
+    "transactionId": "9abc55b2-807b-4361-9dbe-aa88b1b2e821",
+    "details": "Service is started"
+  },
+  {
+    "timestamp": 1628475171257,
+    "loglevel": "debug",
+    "transactionId": "9abc55b2-807b-4361-9dbe-aa88b1b2e821",
+    "details": "About to request the user information",
+    "userId": 16
+  },
+  {
+    "timestamp": 1628475171257,
+    "loglevel": "debug",
+    "transactionId": "9abc55b2-807b-4361-9dbe-aa88b1b2e978",
+    "details": "User information is gathered",
+    "user": {
+      "id": 10,
+      "name": "Alice"
+    }
+  },
+  {
+    "timestamp": 1628475171258,
+    "loglevel": "debug",
+    "transactionId": "9abc55b2-807b-4361-9dbe-aa88b1b2e821",
+    "details": "About to request user orders list",
+    "userId": 16
+  },
+  {
+    "timestamp": 1628475171259,
+    "loglevel": "error",
+    "transactionId": "9abc55b2-807b-4361-9dbe-aa88b1b2e978",
+    "details": "Cannot find user orders list",
+    "err": "Not found"
+  },
+  {
+    "timestamp": 1628475171259,
+    "loglevel": "debug",
+    "transactionId": "9abc55b2-807b-4361-9dbe-aa88b1b2e821",
+    "details": "User information is retrieved",
+    "user": {
+      "id": 16,
+      "name": "Michael"
+    }
+  },
+  {
+    "timestamp": 1628475171262,
+    "loglevel": "debug",
+    "transactionId": "9abc55b2-807b-4361-9dbe-aa88b1b2e821",
+    "details": "User information is retrieved",
+    "user": {
+      "id": 16,
+      "orders": [
+        {
+          "id": 472,
+          "items": {
+            "id": 7,
+            "price": 7.12
+          }
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": 1628475171264,
+    "loglevel": "warn",
+    "transactionId": "9abc55b2-807b-4361-9dbe-aa88b1b2e978",
+    "details": "Service finished with error",
+    "err": "Cannot find user orders list"
+  },
+  {
+    "timestamp": 1628475171265,
+    "loglevel": "info",
+    "transactionId": "9abc55b2-807b-4361-9dbe-aa88b1b2e821",
+    "details": "Service is successfully finished"
+  }
+]

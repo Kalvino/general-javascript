@@ -1,0 +1,6 @@
+calvin-odira phone 52 1
+calvin-odira batterries 40 13
+calvin-odira watch 15 1
+kagendo-joy shoes 100 1
+kagendo-joy soap 5 12
+kagendo-joy cup 10 4
